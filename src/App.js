@@ -1,12 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from "react";
+import Slider from "./components/Slider";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hero slider</h1>
-    </div>
-  );
+import 'font-awesome/css/font-awesome.min.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <div>
+          <Slider />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
